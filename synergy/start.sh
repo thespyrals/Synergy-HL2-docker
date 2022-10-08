@@ -59,7 +59,7 @@ else
 
 	cd /steamcmd/
 	echo "Installing synergy and Half-Life 2 (including Episode 1 and Episode 2)"
-	./steamcmd.sh +login $STEAM_USER_NAME $STEAM_PASSWORD $STEAM_GUARD +@sSteamCmdForcePlatformType windows +app_update 220 +app_update 420  +app_update 380 +app_update 17520 validate +quit
+	./steamcmd.sh +login $STEAM_USER_NAME $STEAM_PASSWORD $STEAM_GUARD +@sSteamCmdForcePlatformType windows +app_update 220 +app_update 17520 validate +quit
 	echo "Installation completed."
 	touch "/installed"
 	runServer
